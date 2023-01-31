@@ -5,7 +5,7 @@
 read -p "Introduzca su calificacion: " nota
 
 case $nota in 
-    [9|10])
+    9|10)
     echo "Tienes un sobresaliente";;
     [87])
     echo "Tienes un sobresaliente";;
