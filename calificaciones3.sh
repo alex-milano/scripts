@@ -15,4 +15,6 @@ case $nota in
     echo "Tienes un aprobado";;
     [43210])
     echo "Tienes un suspenso";;
+    *) 
+    echo "Nota incorrecta";;
 esac 
